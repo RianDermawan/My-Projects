@@ -1,0 +1,15 @@
+Description the data
+8888: unmeasured data
+9999: No Data (no measurements taken)
+Tn: Minimum temperature (°C)
+Tx: Maximum temperature (°C)
+Tavg: Temperatur rata-rata (°C)
+RH_avg: Average humidity (%)
+RR: Rainfall (mm)
+ss: Length of sunshine (hours)
+ff_x: Maximum wind speed (m/s)
+ddd_x: Wind direction at maximum speed (°)
+ff_avg: Average wind speed (m/s)
+ddd_car: Most wind direction (°)
+
+Problem is we must find a data which difference beetween max and min is less than 2 per months
