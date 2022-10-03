@@ -1,0 +1,21 @@
+Description the data
+8888: unmeasured data
+9999: No Data (no measurements taken)
+Tn: Minimum temperature (°C)
+Tx: Maximum temperature (°C)
+Tavg: Temperatur rata-rata (°C)
+RH_avg: Average humidity (%)
+RR: Rainfall (mm)
+ss: Length of sunshine (hours)
+ff_x: Maximum wind speed (m/s)
+ddd_x: Wind direction at maximum speed (°)
+ff_avg: Average wind speed (m/s)
+ddd_car: Most wind direction (°)
+
+Problem is we must concate all data from difference directory file. Example:
+Folder 1984 containing: laporan_iklim_harian.xlsx, laporan_iklim_harian (1).xlsx, laporan_iklim_harian (2).xlsx ,....., laporan_iklim_harian (11).xlsx
+Folder 1985 containing: laporan_iklim_harian.xlsx, laporan_iklim_harian (1).xlsx, laporan_iklim_harian (2).xlsx ,....., laporan_iklim_harian (11).xlsx
+...
+...
+...
+Folder 2022 containing: laporan_iklim_harian.xlsx, laporan_iklim_harian (1).xlsx, laporan_iklim_harian (2).xlsx ,....., laporan_iklim_harian (11).xlsx
