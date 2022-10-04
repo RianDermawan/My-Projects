@@ -1,0 +1,20 @@
+1.
+WITH max_price as (SELECT city as kota, max(price) as max_price
+FROM tourism_with_id
+WHERE rating >= 4.5
+GROUP BY city)
+SELECT city, price, place_name
+FROM tourism_with_id
+INNER JOIN max_price
+ON ((tourism_with_id.price = max_price.max_price) and (tourism_with_id.city = max_price.kota))
+ORDER BY city
+
+2.
+SELECT User_Id, Place_Name, Place_Ratings 
+FROM (SELECT user.User_Id, Place_Id, Place_Ratings FROM user
+INNER JOIN tourism_rating 
+ON user.User_Id = tourism_rating.User_id
+WHERE Age = 40 AND Place_Ratings = 5) AS ID_ratings
+INNER JOIN tourism_with_id
+ON ID_ratings.Place_Id = tourism_with_id.Place_Id
+ORDER BY User_Id
