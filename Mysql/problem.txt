@@ -1,0 +1,8 @@
+Description the tables
+1. tourism_with_id:  Place_Id 	Place_Name 	Category 	City 	Price 	Rating 	Time_Minutes 	Lat 	Long 	
+2. user           :  User_Id 	Location 	Age 	
+3. tourism_ratings:  User_Id 	Place_Id 	Place_Ratings 
+
+Problem
+1. Find Place_Name has a maximun price with ratings is more than or equal 4.5 in every city
+2. Find Place_Name who people give a rating is 5 with age is 40 
