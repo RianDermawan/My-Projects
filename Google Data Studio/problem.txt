@@ -1,0 +1,4 @@
+From data top_200_youtubers, we calculate on each country:
+1. min and max folowers by main video category
+2. percent sum folowers by main topic
+3. average folowers by category
