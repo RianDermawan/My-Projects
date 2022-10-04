@@ -1,4 +1,5 @@
 1. Linear Regression
 2. Linear Regression Multivariate
-3. Logistic Regression
-4. Logisric Regression Multiclass
+3. Gradient descent and Cost function
+4. Logistic Regression
+5. Logisric Regression Multiclass
